@@ -17,7 +17,7 @@ const PAYNECTA_API_KEY = process.env.PAYNECTA_API_KEY || "hmp_ZYPdX5rx0LuCled8hK
 const PAYNECTA_CODE = process.env.PAYNECTA_CODE || "PNT_101521";
 
 // The callback URL PayNecta will call (use your tested backend domain)
-const CALLBACK_URL = process.env.CALLBACK_URL || "https://swiftcapitalportal.onrender.com";
+const CALLBACK_URL = process.env.CALLBACK_URL || "https://backend-douu.onrender.com";
 
 // JSON storage file for receipts
 const receiptsFile = path.join(__dirname, "receipts.json");
